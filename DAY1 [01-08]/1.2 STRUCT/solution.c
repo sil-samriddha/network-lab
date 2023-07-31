@@ -28,10 +28,10 @@ void take_info(struct student_info *s){
 }
 
 void print_info(struct student_info s){
-    printf("\nStudent Information\n");
+    printf("\nPrinting Student Information\n");
     printf("Roll: \t %d\n", s.roll_no);
     printf("Name: \t %s\n", s.name);
-    printf("CGPA: \t %f\n", s.CGPA);
+    printf("CGPA: \t %.2f\n", s.CGPA);
     printf("DOB: \t %s\n", s.DOB.dob);
     printf("Age: \t %d\n", s.DOB.age);
 }

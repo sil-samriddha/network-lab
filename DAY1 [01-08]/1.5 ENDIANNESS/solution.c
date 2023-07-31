@@ -1,10 +1,14 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main () {
-    int number, i, lsb, converted_number;
+int main (int argc, char *argv[]) {
+    if(argc < 2) {
+        printf("Insufficient arguments\n");
+        return 1;
+    }
+
+    int number = atoi(argv[1]), i, lsb, converted_number;
     char *ptr = (char *)&number;
-    printf("Enter any integer\n");
-    scanf("%d", &number);
 
     lsb = number & 0xff;
     printf("\nLSB of %d is : %d", number, lsb);

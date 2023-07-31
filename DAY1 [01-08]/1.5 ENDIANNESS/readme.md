@@ -3,7 +3,8 @@
 
 ## INPUT
 ```
-258
+$ gcc solution.c
+$ ./a.out 258
 ```
 ## OUTPUT
 ```

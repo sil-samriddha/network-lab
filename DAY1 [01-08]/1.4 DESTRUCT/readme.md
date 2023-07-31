@@ -9,12 +9,13 @@ struct pkt{
 ```
 ## INPUT
 ```
-258
+$ gcc solution.c
+$ ./a.out 258
 ```
 ## OUTPUT
 ```
-2
-1 0
-0
-258
+1st Member of the structure : 2
+2nd Member of the structure : 1, 0
+3rd Member of the structure : 0
+The regenerated number : 258
 ```
