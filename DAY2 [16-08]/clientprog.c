@@ -30,7 +30,7 @@ int main() {
         printf("Error binding socket\n");
         return 1;
     }else{
-        printf("Listing on port %d\n", port);
+        printf("Listening on port %d\n", port);
     }
 
     do {
