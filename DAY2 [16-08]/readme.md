@@ -23,7 +23,7 @@ $ gcc clientprog.c -o client -w
 $ ./client
 
 Socket created
-Listing on port 5741
+Listening on port 5741
 Received message : Hello, This is Samriddha from server
 Received message : Sending text message A B C D 1 2 3 4
 Received message : :)
