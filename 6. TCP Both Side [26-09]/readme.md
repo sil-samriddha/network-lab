@@ -23,7 +23,7 @@ Enter for sending message : Exit
 Socket closed
 ```
 
-## CLIENT 1
+## CLIENT
 ```bash
 $ ./client
 ```
