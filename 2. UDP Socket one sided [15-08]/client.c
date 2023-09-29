@@ -24,8 +24,6 @@ int main() {
     addr.sin_family = AF_INET;
     addr.sin_port = htons(port);
     addr.sin_addr.s_addr = inet_addr(host_addr);
-    
-    printf("Server running : %s (port : %d)\n", host_addr, port);
 
     do {
         printf("Enter message to send ['exit' to close] : ");
