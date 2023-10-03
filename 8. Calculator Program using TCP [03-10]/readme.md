@@ -36,10 +36,10 @@ Choose any operator :
 *  Multiplication
 /  Division
 
-Operator : %
-Number 1 : 26
-Number 2 : 33
-Operation not supported
+Operator : *
+Number 1 : 100
+Number 2 : 20
+100 * 20 = 2000
 Socket closed
 ```
 
